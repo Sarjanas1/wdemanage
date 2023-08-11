@@ -56,3 +56,4 @@ googletrans
 google-trans-new
 pykeyboard
 pynewtonmath
+dnspython==2.3.0
