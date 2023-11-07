@@ -88,7 +88,7 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Eror_404_NF"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/PyrogramGen"
         ),
         InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
         ),
