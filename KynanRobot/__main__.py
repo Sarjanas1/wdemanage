@@ -493,7 +493,7 @@ def kynan_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/87cf5d0dc44bad8ddc9a8.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/EROR_404_NF"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/PyrogramGen"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
