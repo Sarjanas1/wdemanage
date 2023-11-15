@@ -299,7 +299,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "➣ *ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ* *{}* :\n".format(
+                "*ᴀᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs ꜰᴏʀ* *{}* :\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -391,7 +391,7 @@ def kynan_about_callback(update, context):
 
     elif query.data == "kynan_admin":
         query.message.edit_text(
-            text=f"*✮ PERINTAH ADMIN."
+            text=f"*ᴘᴇʀɪɴᴛᴀʜ ᴀᴅᴍɪɴ."
             "\n\nc singkatan dari pemutaran Channel."
             "\n » /pause or /cpause - Jeda musik yang diputar."
             "\n » /resume or /cresume- Lanjutkan musik yang dijeda."
@@ -492,7 +492,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ϙʀɪs", url=""),
+                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/86f38a3c909e3e18eaff4.jpg"),
                     InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/PyrogramGen"),
                  ],
                  [
