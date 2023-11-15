@@ -10,19 +10,19 @@ from KynanRobot import BOT_NAME, BOT_USERNAME, OWNER_ID, START_IMG, SUPPORT_CHAT
 @pbot.on_message(filters.command("alive"))
 async def awake(_, message: Message):
     TEXT = f"┏━━━━━━━━━━━━━━━━━━━━┓\n"
-    TEXT += f"┠➣ **ᴀᴋᴜ {BOT_NAME}.** \n"
-    TEXT += f"┠➣ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n"
-    TEXT += f"┠➣ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
-    TEXT += f"┠➣ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n"
+    TEXT += f"┠ **ᴀᴋᴜ {BOT_NAME}.** \n"
+    TEXT += f"┠ **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{telever}` \n"
+    TEXT += f"┠ **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{tlhver}` \n"
+    TEXT += f"┠ **ᴘʏʀᴏɢʀᴀᴍ ᴠᴇʀsɪᴏɴ :** `{pyrover}` \n"
     TEXT += "┗━━━━━━━━━━━━━━━━━━━━┛\n\n"
     TEXT += "**ᴛᴇʀɪᴍᴀᴋᴀsɪʜ sᴜᴅᴀʜ ᴍᴇɴᴀᴍʙᴀʜᴋᴀɴ ᴋᴜ ᴅɪsɪɴɪ**"
     BUTTON = [
         [
-            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/ZoidsXRobot_bot?start=help"),
-            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/ZOIDsSupport"),
+            InlineKeyboardButton("ʜᴇʟᴘ", url=f"https://t.me/zenituuuxbotstart=help"),
+            InlineKeyboardButton("sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/zenitsugcsupport"),
         ],
         [
-            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/EROR_404_NF"),
+            InlineKeyboardButton("ᴍʏ ᴏᴡɴᴇʀ", url=f"t.me/fearznolimit"),
         ]
     ]
     await message.reply_photo(
