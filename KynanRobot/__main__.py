@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/zenitsuuuxrobot?startgroup=true"
+            text="ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴇɴɪᴛsᴜ", url="https://t.me/zenitsuuuxrobot?startgroup=true"
         ),
      ],
 ]
@@ -493,7 +493,7 @@ def kynan_about_callback(update, context):
                 [
                  [
                     InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/86f38a3c909e3e18eaff4.jpg"),
-                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/PyrogramGen"),
+                    InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/fearznolimit"),
                  ],
                  [
                     InlineKeyboardButton(text="« ᴋᴇᴍʙᴀʟɪ", callback_data="kynan_back"),
@@ -800,7 +800,7 @@ def main():
                 chat_id=f"@{SUPPORT_CHAT}",
                 photo=START_IMG,
                 caption=f"""
-**  ᴢᴏɪᴅ x ʀᴏʙᴏᴛ ᴀᴋᴜ ʜɪᴅᴜᴘ**
+** ᴢᴇɴɪᴛsᴜ x ʀᴏʙᴏᴛ ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
 ┏━━━━━━━━━━━━━━━━━━━┓
 ┠ **ᴘʏᴛʜᴏɴ :** `{y()}`
