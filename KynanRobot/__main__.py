@@ -88,9 +88,9 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/PyrogramGen"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/fearznolimit"
         ),
-        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/zenitsugcsupport"
         ),
     ],
     [
@@ -102,7 +102,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/ZoidsXRobot_bot?startgroup=true"
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/zenitsuuuxrobot?startgroup=true"
         ),
      ],
 ]
@@ -220,7 +220,7 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ʜɪ, ɪ,ᴍ ᴢᴏɪᴅ x ʀᴏʙᴏᴛ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
+            caption="ʜɪ, ɪ,ᴍ ᴢᴇɴɪᴛsᴜ x ʀᴏʙᴏᴛ sᴇɴᴀɴɢ ʙᴇʀᴛᴇᴍᴜ ᴅᴇɴɢᴀɴ ᴍᴜ \n<b>​  :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -492,7 +492,7 @@ def kynan_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ϙʀɪs", url="https://telegra.ph/file/87cf5d0dc44bad8ddc9a8.jpg"),
+                    InlineKeyboardButton(text="ϙʀɪs", url=""),
                     InlineKeyboardButton(text="ᴅᴏɴᴀsɪ", url="https://t.me/PyrogramGen"),
                  ],
                  [
