@@ -3,7 +3,7 @@ from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Upda
 from telegram.ext import CallbackContext
 from telegram.ext.dispatcher import run_async
 
-from KynanRobot import BOT_NAME, BOT_USERNAME, dispatcher
+from KynanRobot import dispatcher
 from KynanRobot.modules.disable import DisableAbleCommandHandler
 
 
@@ -14,21 +14,21 @@ def handwrite(update: Update, context: CallbackContext):
         text = message.reply_to_message.text
     else:
         text = update.effective_message.text.split(None, 1)[1]
-    m = message.reply_text("Writing the text...")
+    m = message.reply_text("Processing...")
     req = requests.get(f"https://api.sdbots.tk/write?text={text}").url
     message.reply_photo(
         photo=req,
         caption=f"""
-Successfully Written Text ❤️
+I managed to write for you 💘
 
-༊ **Written By :** [{BOT_NAME}](https://t.me/{BOT_USERNAME})
-༁ **Requested by :** {update.effective_user.first_name}
-ᐈ **Link :** `{req}`""",
+✏️ **ᴘᴏᴡᴇʀᴇᴅ ʙʏ**: [Zenitsu](https://t.me/zenitsuuuxrobot)
+👤 **ʀᴇϙᴜᴇꜱᴛᴇᴅ ʙʏ**: {update.effective_user.first_name}
+🔗 **ʟɪɴᴋ ᴛᴇʟᴇɢʀᴀᴘʜ**: `{req}`""",
         parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴩʜ", url=req),
+                    InlineKeyboardButton("ᴛᴇʟᴇɢʀᴀᴘʜ", url=req),
                 ],
             ]
         ),
@@ -37,15 +37,17 @@ Successfully Written Text ❤️
 
 
 __help__ = """
- Writes the given text on white page with a pen
+──「 ᴡʀɪᴛɪɴɢ 」──
 
-ᐉ /write <text> *:* Writes the given text.
+ Membuat Tulisan Otomatis Dibuku 🖊
+
+• /write <teks> *:* Menulis teks yang diberikan.
 """
 
 WRITE_HANDLER = DisableAbleCommandHandler("write", handwrite)
 
 dispatcher.add_handler(WRITE_HANDLER)
 
-__mod_name__ = "Write-Tool"
+__mod_name__ = "ᴡʀɪᴛɪɴɢ"
 __command_list__ = ["write"]
 __handlers__ = [WRITE_HANDLER]
