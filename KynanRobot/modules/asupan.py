@@ -6,8 +6,8 @@
 import os
 import random
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterVideo, InputMessagesFilterVoice
-from GreyCilik.events import register
-from GreyCilik import telethn as tbot, ubot2                 
+from KynanRobot.events import register
+from KynanRobot import telethn as tbot, ubot2                 
 
 
 @register(pattern="^/asupan ?(.*)")
