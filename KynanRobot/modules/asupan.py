@@ -230,7 +230,7 @@ async def _(event):
         asupannya = [
             asupan
             async for asupan in ubot2.iter_messages(
-            "@mentahanppcp", filter=InputMessagesFilterPhotos
+            "@ppCoupleAra", filter=InputMessagesFilterPhotos
             )
         ]
         kontols = random.choice(asupannya)
